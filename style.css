@@ -42,7 +42,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 .hero h2{
     font-size: 3rem;
-    margin-bottom: 25px;
+    margin-bottom: 25px 0;
 }
 
 /*seccion de productos*/
@@ -67,4 +67,11 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 200px;
     object-fit: cover;
     margin-bottom:10px ;
+}
+
+footer{
+    background-color: blueviolet;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 10px 0;
 }
