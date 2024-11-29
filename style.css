@@ -2,4 +2,69 @@
     padding: 0;
     margin: 0;
 }
+body{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: beige; 
+}
+
+.nav-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li{
+    margin-left: 20px;
+}
+
+.hero{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/1200px-A_small_cup_of_coffee.JPG);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: aliceblue;
+    padding: 100px ;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero h2{
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+
+/*seccion de productos*/
+
+.featured-products{
+    padding: 50px;
+    text-align: center;
+}
+.product-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.products{
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.product img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom:10px ;
+}
