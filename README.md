@@ -1,1 +1,1 @@
-Cafeteria ![Uploading GoodMorningGIF.gif…]()
+Cafeteria 🍰🍵☕🫖
