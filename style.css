@@ -26,6 +26,11 @@ background-color: antiquewhite;
 background-color: rgb(218, 159, 50);
 }
 
+.nav-links li a{
+    text-decoration: none;
+    color:blue
+}
+
 
 
 .navbar{
@@ -51,6 +56,19 @@ background-color: rgb(218, 159, 50);
     margin-left: 40px ;
     background-color: rgba(235, 93, 93, 0.008);
     text-decoration:indianred
+}
+
+.contenedor-boton{
+    padding: 10px;
+}
+
+.boton-menu{
+margin: 10px;
+padding: 5px;
+background-color: lightpink;
+color: azure;
+font-size: 50px;
+
 }
 
 a:hover{
@@ -96,10 +114,11 @@ a:hover{
     display: flex;
     flex-wrap: wrap;
     font-size: 45px;
+    text-decoration: none;
 }
 
 .featured-products h2{
-    background-color: red;
+    background-color: rgb(253, 5, 5);
     font-size: 3rem;
   font-family:'Times New Roman', Times, serif
 }
@@ -132,24 +151,90 @@ main{
     transition: all 0.8s ease-in-out;
     border: 3px solid rgb(239,33,33);
     margin-bottom: 30px;
-    background-color: rgb(214, 114, 68);
+    background-color: rgb(220, 99, 44);
     object-fit:cover
 
 }
 
 .product img{
     flex: box;
-    position-anchor: 20px;
     margin-bottom: 10px;
     object-fit: cover;
     transition: 3s;
-    width: 300px;
-    height: 350px;
-    font-size: 250px;
-    align-items: center;
-    justify-content: center;
+    height: 200px;
 }
 
+
+.postres-container h2{
+    color: chartreuse;
+    background-color: rgb(147, 43, 226);
+    font-size: 50px;
+}
+
+
+
+.postres{
+    background-size: 50px;
+    height: 50%;
+    align-content: start;
+    flex-wrap: wrap;
+    display: grid;
+    font-size: 35px;
+    padding: 40px;
+    text-align: center;
+    background-color: rgb(237, 113, 113);
+}
+
+.grid-container{
+    box-sizing: 50px;
+    background-size: 50px;
+    align-items: start;
+    display: grid;
+    gap: 20px;
+    flex-wrap: wrap;
+    grid-template-columns:repeat(4,1fr)
+    grid-template-rows  auto auto
+
+}
+
+.postre img{
+    height: 200px;
+    display: grid;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+#postres{
+color: chartreuse;
+font-size: 50px;
+background-color: blueviolet;
+display: inline ;
+}
+
+.miembro img{
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+    object-fit: cover;
+}
+
+.equipo{
+    padding:  50px;
+    text-align: center;
+}
+
+.equipo-container{
+justify-content: space-around;
+flex-wrap:wrap ;
+display: flex;
+}
+
+.miembro{ 
+    width: 200px;
+    margin-bottom: 15px;
+    font-size: 60px;
+}
 
 #cafeamericano{
     text-align: center;
@@ -186,6 +271,7 @@ main{
 }
 
 #nosotros{
+    text-decoration:none ;
     color: darkolivegreen;
     font-size: 40px;
     font-family:Verdana, Geneva, Tahoma, sans-serif
