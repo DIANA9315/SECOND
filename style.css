@@ -204,6 +204,12 @@ main{
     object-fit: cover;
 }
 
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 #postres{
 color: chartreuse;
@@ -286,4 +292,41 @@ footer{
     text-align: center;
     padding: 10px 0;
     font-size: 30px;
+}
+
+.social-media{
+    margin-bottom: 25px;
+}
+
+.social-media{
+    font-size: 30px;
+    color: brown;
+    margin: 0 10 px
+}
+
+.newsletter h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.newsletter{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.newsletter-input[type="email"]{
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid coral
+}
+
+.newsletter-button[type="submit"]{
+    color: azures;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none
 }
